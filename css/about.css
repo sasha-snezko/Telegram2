@@ -1,0 +1,155 @@
+body{
+    height: 100%;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+}
+header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #003399;
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    width: 50px;
+    height: auto;
+}
+nav ul {
+    margin-top: -30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.promo {
+    min-height: 100hv;
+    text-align: center;
+    padding: 16.62em;
+    background-size: auto auto;
+    background-color: #0056b3;
+    color: white;
+}
+.no-underline {
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+.promo h1 {
+    margin-top: -260px;
+    margin-left: -115px;
+    text-align: left;
+    font-size: 2.5em;
+}
+.welcome {
+    margin-top: -480px;
+    margin-left: 10px;
+    text-align: left;
+   text-decoration: none;
+   color: white;
+   font-size: 1.005em;
+}
+.promo button {
+    margin-left: 100px; /*отступ с лева*/
+    display: block; /*что бі кнопка заняла свою строку*/
+    background-color: #f3c614;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+.phone {
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    right: 550px;
+    top: 120px;
+}
+.phone2 {
+    max-width: 100%;
+    position: absolute;
+    right: 64px;
+    top: 118px;
+    width: 600px;
+    height: auto;
+}
+.highlight {
+    flex: 1 1 auto;
+    color: white;
+    font-size: 1.05em;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -500px;
+}
+.tleg {
+    max-width: 100%;
+ margin-top: -78px;
+ margin-right: -225px;
+ float: right;
+ width: 800px;
+ height: auto;
+}
+.text-button {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: #003399;
+}
+.footer {
+    border-color: #003399;
+    
+}
+   
+@media (max-width: 1200px) {
+    .title {
+        font-size: auto;
+        width: auto;
+    }
+}
+@media (max-width: 394px) {
+    .nav {
+        display: block;
+        text-align: center;
+    }
+    .text-button {
+        display: block;
+    }
+}
+@media (max-width: 714px){
+    .promo h1 {
+        font-size: 1.2em;
+        text-align: center;
+        margin-right: 0;
+
+    }
+}
+    @media (max-width: 1115px){
+        .tleg {
+            display: none;
+        }
+    }
+@media (max-width: 450px){
+    .logo {
+        display: block;
+    }
+}
+@media (max-width: 715px){
+    .del{
+        display: none;
+    }
+        
+}
+    
